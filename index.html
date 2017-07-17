@@ -10,15 +10,19 @@
 <!--Hue Hue -->
 
 <body>
-    <audio autoplay id="hoho" volume="0.5">
+    <audio id="hoho">
         <source src="Secretshopwelcome.mp3" type="audio/mpeg">
     </audio>
     <script>
+        function codeAddress() {
+            document.getElementById('hoho').volume = 0.2;
+        }
         function myFunction() 
         {
             document.getElementById('hoho').currentTime = 0;
             document.getElementById('hoho').play();
         }
+        window.onload = codeAddress;
     </script>
     <div>
           <img src="bilder/shopkeeper.jpg" alt="HoHo" tabindex="0" onclick="myFunction()"></img>
