@@ -10,11 +10,17 @@
 <!--Hue Hue -->
 
 <body>
-    <audio autoplay>
+    <audio id="hoho">
         <source src="Secretshopwelcome.mp3" type="audio/mpeg">
     </audio>
+    <script>
+        function myFunction() 
+        {
+            document.getElementById("hoho").play();
+        }
+    </script>
     <div>
-        <img src="bilder/shopkeeper.jpg" alt="HoHo"></img>
+        <img src="bilder/shopkeeper.jpg" alt="HoHo" onfocus="myFunction()"></img>
     </div>
 </body>
 </html>
