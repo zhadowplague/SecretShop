@@ -10,8 +10,16 @@ body{
 }
 #space{
  position: fixed;
- top: 0px;
+ bottom: 0px;
  left: 0px;
+ background-color: black;
+ border-style: solid;
+ border-color: green;
+ border-width: 3px;
+}
+p{
+ text-align: center;
+ color: white;
 }
 img{
  display: block;
