@@ -4,7 +4,7 @@ Detta är css dokumentet
 body{
  display: block;
  background-color: black;
- //background: url(bilder/lenny.png);
+ background: url(bilder/lenny.png);
 }
 #box{
  margin: 10% 5% 5% 5%;
